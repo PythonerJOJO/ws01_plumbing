@@ -1,0 +1,19 @@
+[1.125s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/src/py01_topic': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/dai/ros2_study/ws01_plumbing/build/py01_topic/build install --record /home/dai/ros2_study/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[1.512s] running egg_info
+[1.514s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[1.514s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[1.514s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[1.515s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[1.515s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[1.518s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[1.519s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[1.519s] running build
+[1.519s] running build_py
+[1.519s] running install
+[1.520s] running install_lib
+[1.522s] running install_data
+[1.522s] running install_egg_info
+[1.524s] removing '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[1.531s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[1.532s] running install_scripts
+[1.560s] writing list of installed files to '/home/dai/ros2_study/ws01_plumbing/build/py01_topic/install.log'

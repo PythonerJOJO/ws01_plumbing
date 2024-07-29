@@ -1,0 +1,9 @@
+/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/uninstall.dir
+/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo_uninstall.dir
+/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/test.dir
+/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/edit_cache.dir
+/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/rebuild_cache.dir
+/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/list_install_components.dir
+/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/install.dir
+/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/install/local.dir
+/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/install/strip.dir

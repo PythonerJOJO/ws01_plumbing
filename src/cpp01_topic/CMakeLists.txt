@@ -11,6 +11,37 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(base_interfaces_demo REQUIRED)
 
+add_executable(demo01_talker_str src/demo01_talker_str.cpp)
+add_executable(demo02_listener_str src/demo02_listener_str.cpp)
+
+target_include_directories(demo01_talker_str PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+
+target_include_directories(demo02_listener_str PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_compile_features(demo01_talker_str PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(
+  demo01_talker_str
+  "rclcpp"
+  "std_msgs"
+  "base_interfaces_demo"
+)
+target_compile_features(demo02_listener_str PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(
+  demo02_listener_str
+  "rclcpp"
+  "std_msgs"
+  "base_interfaces_demo"
+)
+
+install(TARGETS demo01_talker_str
+  DESTINATION lib/${PROJECT_NAME})
+
+install(TARGETS demo02_listener_str
+  DESTINATION lib/${PROJECT_NAME})
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

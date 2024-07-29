@@ -14,12 +14,13 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='dai',
-    maintainer_email='dai@todo.todo',
+    maintainer_email='daiyeshi666@163.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'demo01_talker_str_py = py01_topic.demo01_talker_str_py:main'
         ],
     },
 )

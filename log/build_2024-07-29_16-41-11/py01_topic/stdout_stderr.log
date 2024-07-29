@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py01_topic/demo01_talker_str_py.py -> /home/dai/ros2_study/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+copying py01_topic/__init__.py -> /home/dai/ros2_study/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+running install
+running install_lib
+copying /home/dai/ros2_study/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo01_talker_str_py.py -> /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+copying /home/dai/ros2_study/ws01_plumbing/build/py01_topic/build/lib/py01_topic/__init__.py -> /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+byte-compiling /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo01_talker_str_py.py to demo01_talker_str_py.cpython-310.pyc
+byte-compiling /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/py01_topic -> /home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+copying package.xml -> /home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/py01_topic
+running install_egg_info
+removing '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/py01_topic/py01_topic.egg-info to /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo01_talker_str_py script to /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/py01_topic
+writing list of installed files to '/home/dai/ros2_study/ws01_plumbing/build/py01_topic/install.log'
