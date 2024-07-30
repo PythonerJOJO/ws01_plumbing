@@ -1,0 +1,20 @@
+[0.065s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
+[0.650s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
+[0.718s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo
+[0.742s] -- Install configuration: ""
+[0.743s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[0.745s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[0.746s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[0.749s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[0.750s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[0.752s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[0.753s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[0.754s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[0.757s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[0.758s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[0.759s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[0.762s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[0.762s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[0.762s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[0.762s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[0.769s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo

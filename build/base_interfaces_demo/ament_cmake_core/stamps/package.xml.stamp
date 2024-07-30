@@ -9,8 +9,19 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
+  <!-- 设置三个属性：1.编译依赖；2.执行依赖；3.声明当前包所属的功能包组 -->
+  <!-- 1.编译依赖 -->
+  <build_depend>rosidl_default_generators</build_depend>
+
+  <!-- 2.执行依赖 -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- 3.声明当前包所属的功能包组 -->
+  <!-- <member_of_group>rosidl_interface_packagers</member_of_group> -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <!-- <test_depend>ament_lint_auto</test_depend> -->
+  <!-- <test_depend>ament_lint_common</test_depend> -->
 
   <export>
     <build_type>ament_cmake</build_type>

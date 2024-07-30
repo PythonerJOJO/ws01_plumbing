@@ -1,5 +1,7 @@
+/home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo02_listener_str_py.py
 /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo01_talker_str_py.py
 /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__init__.py
+/home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__pycache__/demo02_listener_str_py.cpython-310.pyc
 /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__pycache__/demo01_talker_str_py.cpython-310.pyc
 /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__pycache__/__init__.cpython-310.pyc
 /home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages/py01_topic
@@ -12,3 +14,4 @@
 /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/py01_topic/demo01_talker_str_py
+/home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/py01_topic/demo02_listener_str_py

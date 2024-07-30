@@ -1,0 +1,35 @@
+[0.323s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[1.164s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[1.164s] [35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[1.166s] [ 25%] Built target demo04_listener_stu
+[1.216s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[1.254s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[1.314s] [ 50%] Built target demo01_talker_str
+[1.434s] [ 75%] Built target demo02_listener_str
+[1.434s] [ 87%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[14.533s] [100%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[15.007s] [100%] Built target demo03_talker_stu
+[15.086s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[15.503s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp01_topic
+[15.510s] -- Install configuration: ""
+[15.510s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[15.510s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[15.510s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[15.533s] -- Set runtime path of "/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu" to ""
+[15.533s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+[15.534s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[15.534s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[15.534s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[15.534s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[15.534s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[15.534s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[15.534s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[15.534s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[15.534s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[15.535s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[15.535s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[15.535s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[15.535s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[15.535s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[15.535s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[15.557s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp01_topic

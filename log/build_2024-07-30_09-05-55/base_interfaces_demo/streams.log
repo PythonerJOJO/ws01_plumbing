@@ -1,0 +1,18 @@
+[0.084s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
+[0.147s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.568s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.577s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.065s] -- Configuring incomplete, errors occurred!
+[1.065s] See also "/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/CMakeOutput.log".
+[1.066s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[1.067s]   Packages installing interfaces must include
+[1.067s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.068s]   package.xml
+[1.069s] Call Stack (most recent call first):
+[1.071s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.071s] 
+[1.072s] [0m
+[1.076s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[1.077s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
