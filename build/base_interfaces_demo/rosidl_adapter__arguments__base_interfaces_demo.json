@@ -1,6 +1,7 @@
 {
   "package_name": "base_interfaces_demo",
   "non_idl_tuples": [
-    "/home/dai/ros2_study/ws01_plumbing/src/base_interfaces_demo:msg/Student.msg"
+    "/home/dai/ros2_study/ws01_plumbing/src/base_interfaces_demo:msg/Student.msg",
+    "/home/dai/ros2_study/ws01_plumbing/src/base_interfaces_demo:srv/AddInts.srv"
   ]
 }

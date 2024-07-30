@@ -206,4 +206,7 @@ CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generato
  /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.h
+ /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.h \
+ /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__type_support.h \
+ /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__struct.h \
+ /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.h

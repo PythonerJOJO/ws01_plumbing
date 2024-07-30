@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/base_interfaces_demo/msg/__init__.py"
   "../rosidl_generator_py/base_interfaces_demo/msg/_student.py"
   "../rosidl_generator_py/base_interfaces_demo/msg/_student_s.c"
+  "../rosidl_generator_py/base_interfaces_demo/srv/__init__.py"
+  "../rosidl_generator_py/base_interfaces_demo/srv/_add_ints.py"
+  "../rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c"
   "CMakeFiles/base_interfaces_demo__py"
 )
 

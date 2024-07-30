@@ -67,6 +67,9 @@ include CMakeFiles/base_interfaces_demo.dir/compiler_depend.make
 include CMakeFiles/base_interfaces_demo.dir/progress.make
 
 CMakeFiles/base_interfaces_demo: /home/dai/ros2_study/ws01_plumbing/src/base_interfaces_demo/msg/Student.msg
+CMakeFiles/base_interfaces_demo: /home/dai/ros2_study/ws01_plumbing/src/base_interfaces_demo/srv/AddInts.srv
+CMakeFiles/base_interfaces_demo: rosidl_cmake/srv/AddInts_Request.msg
+CMakeFiles/base_interfaces_demo: rosidl_cmake/srv/AddInts_Response.msg
 
 base_interfaces_demo: CMakeFiles/base_interfaces_demo
 base_interfaces_demo: CMakeFiles/base_interfaces_demo.dir/build.make

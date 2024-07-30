@@ -1,0 +1,12 @@
+[0.031s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/ros2_study/ws01_plumbing/install/cpp02_service:/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp02_service -- -j4 -l4
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target demo02_client[0m
+[0.166s] [ 50%] Built target demo01_server
+[0.169s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[6.220s] [01m[K/home/dai/ros2_study/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:[m[K In member function ‘[01m[Kbool AddIntsClient::connect_server()[m[K’:
+[6.220s] [01m[K/home/dai/ros2_study/ws01_plumbing/src/cpp02_service/src/demo02_client.cpp:45:9:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kbool[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.220s]    45 |         [01;31m[Kreturn[m[K;
+[6.220s]       |         [01;31m[K^~~~~~[m[K
+[7.435s] gmake[2]: *** [CMakeFiles/demo02_client.dir/build.make:76：CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o] 错误 1
+[7.435s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_client.dir/all] 错误 2
+[7.435s] gmake: *** [Makefile:146：all] 错误 2
+[7.465s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp02_service' returned '2': CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/ros2_study/ws01_plumbing/install/cpp02_service:/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp02_service -- -j4 -l4

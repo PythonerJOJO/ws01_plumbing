@@ -15,6 +15,7 @@ find_package(rosidl_default_generators REQUIRED)
 # 为接口文件生成源代码    # 指定接口文件路径
 rosidl_generate_interfaces( ${PROJECT_NAME}
   "msg/Student.msg"
+  "srv/AddInts.srv"
 )
 
 
