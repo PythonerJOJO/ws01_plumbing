@@ -165,13 +165,13 @@ bool base_interfaces_demo__srv__add_ints__response__convert_from_py(PyObject * _
     assert(strncmp("base_interfaces_demo.srv._add_ints.AddInts_Response", full_classname_dest, 51) == 0);
   }
   base_interfaces_demo__srv__AddInts_Response * ros_message = _ros_message;
-  {  // num
-    PyObject * field = PyObject_GetAttrString(_pymsg, "num");
+  {  // sum
+    PyObject * field = PyObject_GetAttrString(_pymsg, "sum");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->num = (int32_t)PyLong_AsLong(field);
+    ros_message->sum = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 
@@ -196,11 +196,11 @@ PyObject * base_interfaces_demo__srv__add_ints__response__convert_to_py(void * r
     }
   }
   base_interfaces_demo__srv__AddInts_Response * ros_message = (base_interfaces_demo__srv__AddInts_Response *)raw_ros_message;
-  {  // num
+  {  // sum
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->num);
+    field = PyLong_FromLong(ros_message->sum);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "num", field);
+      int rc = PyObject_SetAttrString(_pymessage, "sum", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

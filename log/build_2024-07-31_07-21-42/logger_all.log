@@ -1,0 +1,393 @@
+[0.296s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.296s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72202b013940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72202b7f3760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72202b7f3760>>)
+[3.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.792s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dai/ros2_study/ws01_plumbing'
+[3.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ignore', 'ignore_ament_install']
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore'
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore_ament_install'
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_pkg']
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_pkg'
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_meta']
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_meta'
+[3.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ros']
+[3.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ros'
+[3.871s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_interfaces_demo' with type 'ros.ament_cmake' and name 'base_interfaces_demo'
+[3.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ignore', 'ignore_ament_install']
+[3.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore'
+[3.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore_ament_install'
+[3.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_pkg']
+[3.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_pkg'
+[3.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_meta']
+[3.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_meta'
+[3.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ros']
+[3.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ros'
+[3.891s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_topic' with type 'ros.ament_cmake' and name 'cpp01_topic'
+[3.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['ignore', 'ignore_ament_install']
+[3.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'ignore'
+[3.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'ignore_ament_install'
+[3.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['colcon_pkg']
+[3.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'colcon_pkg'
+[3.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['colcon_meta']
+[3.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'colcon_meta'
+[3.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['ros']
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'ros'
+[3.897s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp02_service' with type 'ros.ament_cmake' and name 'cpp02_service'
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['ignore', 'ignore_ament_install']
+[3.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ignore'
+[3.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ignore_ament_install'
+[3.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['colcon_pkg']
+[3.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'colcon_pkg'
+[3.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['colcon_meta']
+[3.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'colcon_meta'
+[3.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['ros']
+[3.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ros'
+[3.900s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp03_action' with type 'ros.ament_cmake' and name 'cpp03_action'
+[3.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['ignore', 'ignore_ament_install']
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ignore'
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ignore_ament_install'
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['colcon_pkg']
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'colcon_pkg'
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['colcon_meta']
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'colcon_meta'
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['ros']
+[3.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ros'
+[3.912s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py01_topic' with type 'ros.ament_python' and name 'py01_topic'
+[3.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.083s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/dai/robotStudy_ws/install
+[4.089s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[4.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.239s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_args' from command line to 'None'
+[4.239s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target' from command line to 'None'
+[4.239s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.239s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[4.239s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_first' from command line to 'False'
+[4.240s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_force_configure' from command line to 'False'
+[4.240s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'ament_cmake_args' from command line to 'None'
+[4.240s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[4.240s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.240s] DEBUG:colcon.colcon_core.verb:Building package 'base_interfaces_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo', 'merge_install': False, 'path': '/home/dai/ros2_study/ws01_plumbing/src/base_interfaces_demo', 'symlink_install': False, 'test_result_base': None}
+[4.241s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_args' from command line to 'None'
+[4.241s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target' from command line to 'None'
+[4.241s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.241s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[4.241s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_first' from command line to 'False'
+[4.241s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_force_configure' from command line to 'False'
+[4.242s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'ament_cmake_args' from command line to 'None'
+[4.242s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[4.242s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.242s] DEBUG:colcon.colcon_core.verb:Building package 'cpp01_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dai/ros2_study/ws01_plumbing/build/cpp01_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic', 'merge_install': False, 'path': '/home/dai/ros2_study/ws01_plumbing/src/cpp01_topic', 'symlink_install': False, 'test_result_base': None}
+[4.243s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_args' from command line to 'None'
+[4.243s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_target' from command line to 'None'
+[4.243s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.243s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_clean_cache' from command line to 'False'
+[4.244s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_clean_first' from command line to 'False'
+[4.244s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_force_configure' from command line to 'False'
+[4.245s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'ament_cmake_args' from command line to 'None'
+[4.245s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'catkin_cmake_args' from command line to 'None'
+[4.245s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.245s] DEBUG:colcon.colcon_core.verb:Building package 'cpp02_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dai/ros2_study/ws01_plumbing/build/cpp02_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service', 'merge_install': False, 'path': '/home/dai/ros2_study/ws01_plumbing/src/cpp02_service', 'symlink_install': False, 'test_result_base': None}
+[4.246s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_args' from command line to 'None'
+[4.246s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_target' from command line to 'None'
+[4.246s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.246s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_clean_cache' from command line to 'False'
+[4.247s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_clean_first' from command line to 'False'
+[4.247s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_force_configure' from command line to 'False'
+[4.247s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'ament_cmake_args' from command line to 'None'
+[4.247s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'catkin_cmake_args' from command line to 'None'
+[4.247s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.247s] DEBUG:colcon.colcon_core.verb:Building package 'cpp03_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action', 'merge_install': False, 'path': '/home/dai/ros2_study/ws01_plumbing/src/cpp03_action', 'symlink_install': False, 'test_result_base': None}
+[4.248s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_args' from command line to 'None'
+[4.248s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_target' from command line to 'None'
+[4.249s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.249s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[4.249s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_clean_first' from command line to 'False'
+[4.249s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_force_configure' from command line to 'False'
+[4.249s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'ament_cmake_args' from command line to 'None'
+[4.249s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[4.249s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.250s] DEBUG:colcon.colcon_core.verb:Building package 'py01_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dai/ros2_study/ws01_plumbing/build/py01_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dai/ros2_study/ws01_plumbing/install/py01_topic', 'merge_install': False, 'path': '/home/dai/ros2_study/ws01_plumbing/src/py01_topic', 'symlink_install': False, 'test_result_base': None}
+[4.250s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.253s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dai/ros2_study/ws01_plumbing/src/base_interfaces_demo' with build type 'ament_cmake'
+[4.253s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dai/ros2_study/ws01_plumbing/src/base_interfaces_demo'
+[4.307s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
+[5.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
+[5.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo
+[5.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[5.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/base_interfaces_demo
+[5.987s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo' for CMake module files
+[5.988s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo' for CMake config files
+[5.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[5.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[6.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[6.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[6.014s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib'
+[6.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[6.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[6.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[6.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[6.018s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/bin'
+[6.018s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[6.018s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib/python3.10/site-packages'
+[6.018s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/bin'
+[6.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[6.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[6.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[6.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[6.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[6.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[6.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[6.299s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo' for CMake module files
+[6.302s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo' for CMake config files
+[6.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[6.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[6.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[6.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[6.305s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib'
+[6.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[6.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[6.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[6.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[6.309s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/bin'
+[6.309s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[6.309s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib/python3.10/site-packages'
+[6.310s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/bin'
+[6.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[6.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[6.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[6.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[6.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[6.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[6.315s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dai/ros2_study/ws01_plumbing/src/cpp01_topic' with build type 'ament_cmake'
+[6.315s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dai/ros2_study/ws01_plumbing/src/cpp01_topic'
+[6.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dai/ros2_study/ws01_plumbing/src/cpp02_service' with build type 'ament_cmake'
+[6.324s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dai/ros2_study/ws01_plumbing/src/cpp02_service'
+[6.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.333s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dai/ros2_study/ws01_plumbing/src/cpp03_action' with build type 'ament_cmake'
+[6.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dai/ros2_study/ws01_plumbing/src/cpp03_action'
+[6.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.345s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dai/ros2_study/ws01_plumbing/src/py01_topic' with build type 'ament_python'
+[6.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('py01_topic', 'ament_prefix_path')
+[6.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/py01_topic/hook/ament_prefix_path.ps1'
+[6.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/py01_topic/hook/ament_prefix_path.dsv'
+[6.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/py01_topic/hook/ament_prefix_path.sh'
+[6.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[6.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp02_service': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp02_service -- -j4 -l4
+[6.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dai/ros2_study/ws01_plumbing/src/cpp03_action -DCMAKE_INSTALL_PREFIX=/home/dai/ros2_study/ws01_plumbing/install/cpp03_action
+[7.086s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dai/ros2_study/ws01_plumbing/src/py01_topic'
+[7.087s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.087s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dai/ros2_study/ws01_plumbing/src/py01_topic': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/dai/ros2_study/ws01_plumbing/build/py01_topic/build install --record /home/dai/ros2_study/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[9.290s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/py01_topic' for CMake module files
+[9.291s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/py01_topic' for CMake config files
+[9.292s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib'
+[9.292s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/bin'
+[9.292s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/pkgconfig/py01_topic.pc'
+[9.294s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages'
+[9.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('py01_topic', 'pythonpath')
+[9.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/py01_topic/hook/pythonpath.ps1'
+[9.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dai/ros2_study/ws01_plumbing/src/py01_topic' returned '0': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dai/ros2_study/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/dai/ros2_study/ws01_plumbing/build/py01_topic/build install --record /home/dai/ros2_study/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[9.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/py01_topic/hook/pythonpath.dsv'
+[9.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/py01_topic/hook/pythonpath.sh'
+[9.300s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/bin'
+[9.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py01_topic)
+[9.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/py01_topic/package.ps1'
+[9.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/py01_topic/package.dsv'
+[9.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/py01_topic/package.sh'
+[9.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/py01_topic/package.bash'
+[9.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/py01_topic/package.zsh'
+[9.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dai/ros2_study/ws01_plumbing/install/py01_topic/share/colcon-core/packages/py01_topic)
+[15.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dai/ros2_study/ws01_plumbing/src/cpp03_action -DCMAKE_INSTALL_PREFIX=/home/dai/ros2_study/ws01_plumbing/install/cpp03_action
+[15.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp03_action -- -j4 -l4
+[16.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp03_action -- -j4 -l4
+[16.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp03_action
+[16.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_action)
+[16.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp03_action
+[16.800s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action' for CMake module files
+[16.801s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action' for CMake config files
+[16.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp03_action', 'cmake_prefix_path')
+[16.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.ps1'
+[16.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.dsv'
+[16.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.sh'
+[16.807s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib'
+[16.807s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/bin'
+[16.807s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib/pkgconfig/cpp03_action.pc'
+[16.808s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib/python3.10/site-packages'
+[16.808s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/bin'
+[16.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.ps1'
+[16.810s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv'
+[16.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.sh'
+[16.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.bash'
+[16.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.zsh'
+[16.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/colcon-core/packages/cpp03_action)
+[16.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_action)
+[16.927s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action' for CMake module files
+[16.928s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action' for CMake config files
+[16.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp03_action', 'cmake_prefix_path')
+[16.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.ps1'
+[16.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.dsv'
+[16.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.sh'
+[16.935s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib'
+[16.935s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/bin'
+[16.935s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib/pkgconfig/cpp03_action.pc'
+[16.936s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib/python3.10/site-packages'
+[16.936s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/bin'
+[16.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.ps1'
+[16.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv'
+[16.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.sh'
+[16.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.bash'
+[16.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.zsh'
+[16.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/colcon-core/packages/cpp03_action)
+[23.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp02_service -- -j4 -l4
+[23.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp02_service': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp02_service
+[23.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_service)
+[23.750s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service' for CMake module files
+[23.752s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service' for CMake config files
+[23.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_service', 'cmake_prefix_path')
+[23.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.ps1'
+[23.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.dsv'
+[23.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.sh'
+[23.756s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/lib'
+[23.757s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/bin'
+[23.757s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/lib/pkgconfig/cpp02_service.pc'
+[23.757s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/lib/python3.10/site-packages'
+[23.757s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/bin'
+[23.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.ps1'
+[23.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv'
+[23.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.sh'
+[23.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.bash'
+[23.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.zsh'
+[23.763s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/colcon-core/packages/cpp02_service)
+[23.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp02_service
+[23.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_service)
+[23.847s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service' for CMake module files
+[23.849s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service' for CMake config files
+[23.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_service', 'cmake_prefix_path')
+[23.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.ps1'
+[23.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.dsv'
+[23.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.sh'
+[23.853s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/lib'
+[23.853s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/bin'
+[23.853s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/lib/pkgconfig/cpp02_service.pc'
+[23.853s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/lib/python3.10/site-packages'
+[23.853s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/bin'
+[23.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.ps1'
+[23.855s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv'
+[23.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.sh'
+[23.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.bash'
+[23.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.zsh'
+[23.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dai/ros2_study/ws01_plumbing/install/cpp02_service/share/colcon-core/packages/cpp02_service)
+[34.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[34.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp01_topic
+[34.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[34.266s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic' for CMake module files
+[34.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp01_topic
+[34.267s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic' for CMake config files
+[34.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[34.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[34.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[34.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[34.271s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/lib'
+[34.272s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/bin'
+[34.272s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[34.272s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/lib/python3.10/site-packages'
+[34.273s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/bin'
+[34.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[34.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[34.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.sh'
+[34.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.bash'
+[34.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[34.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[34.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[34.369s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic' for CMake module files
+[34.372s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic' for CMake config files
+[34.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[34.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[34.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[34.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[34.376s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/lib'
+[34.376s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/bin'
+[34.376s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[34.377s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/lib/python3.10/site-packages'
+[34.377s] Level 1:colcon.colcon_core.environment:checking '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/bin'
+[34.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[34.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[34.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.sh'
+[34.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.bash'
+[34.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[34.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[34.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[34.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[34.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[34.385s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.433s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.433s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.434s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.466s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.467s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dai/ros2_study/ws01_plumbing/install/local_setup.ps1'
+[34.477s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dai/ros2_study/ws01_plumbing/install/_local_setup_util_ps1.py'
+[34.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dai/ros2_study/ws01_plumbing/install/setup.ps1'
+[34.489s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dai/ros2_study/ws01_plumbing/install/local_setup.sh'
+[34.497s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dai/ros2_study/ws01_plumbing/install/_local_setup_util_sh.py'
+[34.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dai/ros2_study/ws01_plumbing/install/setup.sh'
+[34.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dai/ros2_study/ws01_plumbing/install/local_setup.bash'
+[34.516s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dai/ros2_study/ws01_plumbing/install/setup.bash'
+[34.519s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dai/ros2_study/ws01_plumbing/install/local_setup.zsh'
+[34.530s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dai/ros2_study/ws01_plumbing/install/setup.zsh'

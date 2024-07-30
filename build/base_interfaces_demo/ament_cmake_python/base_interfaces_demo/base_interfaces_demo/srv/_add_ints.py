@@ -201,11 +201,11 @@ class AddInts_Response(metaclass=Metaclass_AddInts_Response):
     """Message class 'AddInts_Response'."""
 
     __slots__ = [
-        '_num',
+        '_sum',
     ]
 
     _fields_and_field_types = {
-        'num': 'int32',
+        'sum': 'int32',
     }
 
     SLOT_TYPES = (
@@ -216,7 +216,7 @@ class AddInts_Response(metaclass=Metaclass_AddInts_Response):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.num = kwargs.get('num', int())
+        self.sum = kwargs.get('sum', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -247,7 +247,7 @@ class AddInts_Response(metaclass=Metaclass_AddInts_Response):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.num != other.num:
+        if self.sum != other.sum:
             return False
         return True
 
@@ -256,20 +256,20 @@ class AddInts_Response(metaclass=Metaclass_AddInts_Response):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
-    def num(self):
-        """Message field 'num'."""
-        return self._num
+    @builtins.property  # noqa: A003
+    def sum(self):  # noqa: A003
+        """Message field 'sum'."""
+        return self._sum
 
-    @num.setter
-    def num(self, value):
+    @sum.setter  # noqa: A003
+    def sum(self, value):  # noqa: A003
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'num' field must be of type 'int'"
+                "The 'sum' field must be of type 'int'"
             assert value >= -2147483648 and value < 2147483648, \
-                "The 'num' field must be an integer in [-2147483648, 2147483647]"
-        self._num = value
+                "The 'sum' field must be an integer in [-2147483648, 2147483647]"
+        self._sum = value
 
 
 class Metaclass_AddInts(type):

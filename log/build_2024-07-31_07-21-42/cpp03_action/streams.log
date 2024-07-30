@@ -1,0 +1,70 @@
+[0.119s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dai/ros2_study/ws01_plumbing/src/cpp03_action -DCMAKE_INSTALL_PREFIX=/home/dai/ros2_study/ws01_plumbing/install/cpp03_action
+[1.805s] -- The C compiler identification is GNU 11.4.0
+[2.448s] -- The CXX compiler identification is GNU 11.4.0
+[2.496s] -- Detecting C compiler ABI info
+[2.880s] -- Detecting C compiler ABI info - done
+[2.891s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.905s] -- Detecting C compile features
+[2.913s] -- Detecting C compile features - done
+[2.938s] -- Detecting CXX compiler ABI info
+[3.341s] -- Detecting CXX compiler ABI info - done
+[3.356s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.357s] -- Detecting CXX compile features
+[3.358s] -- Detecting CXX compile features - done
+[3.388s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.719s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.928s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.997s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.019s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.031s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.106s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.238s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.240s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.610s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.657s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.730s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.781s] -- Looking for pthread.h
+[5.404s] -- Looking for pthread.h - found
+[5.404s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.160s] -- Found Threads: TRUE  
+[6.644s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[7.688s] -- Found base_interfaces_demo: 0.0.0 (/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[7.833s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.048s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.048s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dai/ros2_study/ws01_plumbing/src/cpp03_action/include>
+[9.048s] -- Configured cppcheck exclude dirs and/or files: 
+[9.048s] -- Added test 'lint_cmake' to check CMake code style
+[9.050s] -- Added test 'uncrustify' to check C / C++ code style
+[9.050s] -- Configured uncrustify additional arguments: 
+[9.050s] -- Added test 'xmllint' to check XML markup files
+[9.060s] -- Configuring done
+[9.123s] -- Generating done
+[9.193s] -- Build files have been written to: /home/dai/ros2_study/ws01_plumbing/build/cpp03_action
+[9.231s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dai/ros2_study/ws01_plumbing/src/cpp03_action -DCMAKE_INSTALL_PREFIX=/home/dai/ros2_study/ws01_plumbing/install/cpp03_action
+[9.233s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp03_action -- -j4 -l4
+[9.398s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[9.577s] [100%] [32m[1mLinking CXX executable demo01_action_server[0m
+[10.224s] [100%] Built target demo01_action_server
+[10.315s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp03_action -- -j4 -l4
+[10.433s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp03_action
+[10.448s] -- Install configuration: ""
+[10.448s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[10.449s] -- Set runtime path of "/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+[10.449s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[10.449s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[10.449s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[10.449s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[10.449s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh
+[10.450s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[10.450s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash
+[10.450s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh
+[10.450s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[10.450s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[10.451s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv
+[10.451s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[10.451s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[10.451s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[10.451s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml
+[10.463s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action' returned '0': AMENT_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble LD_LIBRARY_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp03_action
