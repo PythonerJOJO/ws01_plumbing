@@ -210,6 +210,19 @@ demo01_action_server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_action_server.dir/build.make CMakeFiles/demo01_action_server.dir/build
 .PHONY : demo01_action_server/fast
 
+#=============================================================================
+# Target rules for targets named demo02_action_client
+
+# Build rule for target.
+demo02_action_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo02_action_client
+.PHONY : demo02_action_client
+
+# fast build rule for target.
+demo02_action_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_action_client.dir/build.make CMakeFiles/demo02_action_client.dir/build
+.PHONY : demo02_action_client/fast
+
 src/demo01_action_server.o: src/demo01_action_server.cpp.o
 .PHONY : src/demo01_action_server.o
 
@@ -234,6 +247,30 @@ src/demo01_action_server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_action_server.dir/build.make CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.s
 .PHONY : src/demo01_action_server.cpp.s
 
+src/demo02_action_client.o: src/demo02_action_client.cpp.o
+.PHONY : src/demo02_action_client.o
+
+# target to build an object file
+src/demo02_action_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_action_client.dir/build.make CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o
+.PHONY : src/demo02_action_client.cpp.o
+
+src/demo02_action_client.i: src/demo02_action_client.cpp.i
+.PHONY : src/demo02_action_client.i
+
+# target to preprocess a source file
+src/demo02_action_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_action_client.dir/build.make CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.i
+.PHONY : src/demo02_action_client.cpp.i
+
+src/demo02_action_client.s: src/demo02_action_client.cpp.s
+.PHONY : src/demo02_action_client.s
+
+# target to generate assembly for a file
+src/demo02_action_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_action_client.dir/build.make CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.s
+.PHONY : src/demo02_action_client.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... cpp03_action_uninstall"
 	@echo "... uninstall"
 	@echo "... demo01_action_server"
+	@echo "... demo02_action_client"
 	@echo "... src/demo01_action_server.o"
 	@echo "... src/demo01_action_server.i"
 	@echo "... src/demo01_action_server.s"
+	@echo "... src/demo02_action_client.o"
+	@echo "... src/demo02_action_client.i"
+	@echo "... src/demo02_action_client.s"
 .PHONY : help
 
 

@@ -1,4 +1,5 @@
 /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server
+/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client
 /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
 /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
 /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh

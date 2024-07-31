@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target demo02_action_client[0m
+[ 50%] Built target demo01_action_server
+[ 75%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dai/ros2_study/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:16[m[K:
+[01m[K/home/dai/ros2_study/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionClient::feedback_callback(rclcpp_action::ClientGoalHandle<base_interfaces_demo::action::Progress>::SharedPtr, std::shared_ptr<const base_interfaces_demo::action::Progress_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/dai/ros2_study/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:53:41:[m[K [01;35m[Kwarning: [m[Kunknown escape sequence: '\%'
+   53 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"接收到的反馈：%d\%"[m[K, pro);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dai/ros2_study/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:53:41:[m[K [01;35m[Kwarning: [m[Kspurious trailing ‘[01m[K%[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[01m[K/home/dai/ros2_study/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:53:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   53 |         RCLCPP_INFO(this->get_logger(), "接收到的反馈：%d[01;36m[K\%[m[K", pro);
+      |                                                          [01;36m[K^~[m[K
+[100%] [32m[1mLinking CXX executable demo02_action_client[0m
+[100%] Built target demo02_action_client
+-- Install configuration: ""
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server
+-- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client
+-- Set runtime path of "/home/dai/ros2_study/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client" to ""
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv
+-- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+-- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml

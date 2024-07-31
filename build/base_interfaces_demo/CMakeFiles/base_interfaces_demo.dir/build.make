@@ -70,6 +70,11 @@ CMakeFiles/base_interfaces_demo: /home/dai/ros2_study/ws01_plumbing/src/base_int
 CMakeFiles/base_interfaces_demo: /home/dai/ros2_study/ws01_plumbing/src/base_interfaces_demo/srv/AddInts.srv
 CMakeFiles/base_interfaces_demo: rosidl_cmake/srv/AddInts_Request.msg
 CMakeFiles/base_interfaces_demo: rosidl_cmake/srv/AddInts_Response.msg
+CMakeFiles/base_interfaces_demo: /home/dai/ros2_study/ws01_plumbing/src/base_interfaces_demo/action/Progress.action
+CMakeFiles/base_interfaces_demo: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/base_interfaces_demo: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/base_interfaces_demo: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/base_interfaces_demo: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 
 base_interfaces_demo: CMakeFiles/base_interfaces_demo
 base_interfaces_demo: CMakeFiles/base_interfaces_demo.dir/build.make

@@ -8,6 +8,10 @@
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
+  <!-- action 构建工具依赖 -->
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <!--  -->
+  <depend>action_msgs</depend>
 
   <!-- 设置三个属性：1.编译依赖；2.执行依赖；3.声明当前包所属的功能包组 -->
   <!-- 1.编译依赖 -->

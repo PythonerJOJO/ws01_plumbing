@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_action_server[0m
+[35m[1mConsolidate compiler generated dependencies of target demo02_action_client[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+[ 75%] Built target demo01_action_server

@@ -1,0 +1,19 @@
+[0.253s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/ros2_study/ws01_plumbing/install/cpp03_action:/home/dai/ros2_study/ws01_plumbing/install/cpp02_service:/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp03_action -- -j4 -l4
+[0.647s] [35m[1mConsolidate compiler generated dependencies of target demo01_action_server[0m
+[0.934s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+[1.010s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[22.211s] [01m[K/home/dai/ros2_study/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionClient::feedback_callback(rclcpp_action::ClientGoalHandle<base_interfaces_demo::action::Progress>::SharedPtr, std::shared_ptr<const base_interfaces_demo::action::Progress_Feedback_<std::allocator<void> > >)[m[K’:
+[22.212s] [01m[K/home/dai/ros2_study/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:49:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.213s]    49 |         [01;35m[Kconst std::shared_ptr<const Progress::Feedback> feedback[m[K)
+[22.214s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[22.358s] [01m[K/home/dai/ros2_study/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[22.363s] [01m[K/home/dai/ros2_study/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:121:21:[m[K [01;31m[Kerror: [m[Kcast from ‘[01m[Kchar*[m[K’ to ‘[01m[Kint[m[K’ loses precision [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[22.364s]   121 |     node->send_goal([01;31m[Kint(argv[1])[m[K);
+[22.365s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[24.250s] gmake[2]: *** [CMakeFiles/demo02_action_client.dir/build.make:76：CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o] 错误 1
+[24.250s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_action_client.dir/all] 错误 2
+[24.250s] gmake[1]: *** 正在等待未完成的任务....
+[25.542s] [ 75%] [32m[1mLinking CXX executable demo01_action_server[0m
+[25.953s] [ 75%] Built target demo01_action_server
+[25.960s] gmake: *** [Makefile:146：all] 错误 2
+[25.966s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp03_action' returned '2': CMAKE_PREFIX_PATH=/home/dai/ros2_study/ws01_plumbing/install/base_interfaces_demo:/home/dai/ros2_study/ws01_plumbing/install/cpp03_action:/home/dai/ros2_study/ws01_plumbing/install/cpp02_service:/home/dai/ros2_study/ws01_plumbing/install/cpp01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_cpp:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp03_action -- -j4 -l4
