@@ -1,0 +1,68 @@
+[0.026s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake /home/dai/ros2_study/ws01_plumbing/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/dai/ros2_study/ws01_plumbing/install/cpp04_param
+[0.618s] -- The C compiler identification is GNU 11.4.0
+[0.852s] -- The CXX compiler identification is GNU 11.4.0
+[1.107s] -- Detecting C compiler ABI info
+[1.367s] -- Detecting C compiler ABI info - done
+[1.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.416s] -- Detecting C compile features
+[1.438s] -- Detecting C compile features - done
+[1.490s] -- Detecting CXX compiler ABI info
+[1.680s] -- Detecting CXX compiler ABI info - done
+[1.709s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.710s] -- Detecting CXX compile features
+[1.712s] -- Detecting CXX compile features - done
+[1.866s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.365s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.746s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.516s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.553s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.588s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.694s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.780s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.053s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.065s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.581s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.646s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.747s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.830s] -- Looking for pthread.h
+[5.051s] -- Looking for pthread.h - found
+[5.051s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.264s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.264s] -- Found Threads: TRUE  
+[5.925s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.194s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.194s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dai/ros2_study/ws01_plumbing/src/cpp04_param/include>
+[6.194s] -- Configured cppcheck exclude dirs and/or files: 
+[6.197s] -- Added test 'lint_cmake' to check CMake code style
+[6.202s] -- Added test 'uncrustify' to check C / C++ code style
+[6.203s] -- Configured uncrustify additional arguments: 
+[6.204s] -- Added test 'xmllint' to check XML markup files
+[6.211s] -- Configuring done
+[6.230s] -- Generating done
+[6.234s] -- Build files have been written to: /home/dai/ros2_study/ws01_plumbing/build/cpp04_param
+[6.251s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake /home/dai/ros2_study/ws01_plumbing/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/dai/ros2_study/ws01_plumbing/install/cpp04_param
+[6.253s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[6.395s] [ 50%] [32mBuilding CXX object CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o[0m
+[13.409s] [100%] [32m[1mLinking CXX executable demo00_param[0m
+[13.664s] [100%] Built target demo00_param
+[13.690s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[13.800s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp04_param
+[13.813s] -- Install configuration: ""
+[13.813s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+[13.814s] -- Set runtime path of "/home/dai/ros2_study/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param" to ""
+[13.854s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[13.854s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[13.854s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[13.854s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[13.854s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[13.854s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[13.855s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[13.855s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[13.855s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[13.855s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[13.855s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+[13.855s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[13.855s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[13.855s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[13.855s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
+[13.863s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/home/dai/robotStudy_ws/install/pkg01_helloWorld_python:/opt/ros/humble /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp04_param
