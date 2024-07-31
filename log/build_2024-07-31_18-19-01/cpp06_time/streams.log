@@ -1,0 +1,26 @@
+[0.029s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp06_time -- -j4 -l4
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target demo01_time[0m
+[0.150s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[5.551s] [100%] [32m[1mLinking CXX executable demo01_time[0m
+[5.778s] [100%] Built target demo01_time
+[5.801s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp06_time -- -j4 -l4
+[5.896s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp06_time
+[5.912s] -- Install configuration: ""
+[5.913s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_time
+[5.914s] -- Set runtime path of "/home/dai/ros2_study/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_time" to ""
+[5.914s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/package_run_dependencies/cpp06_time
+[5.914s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/parent_prefix_path/cpp06_time
+[5.914s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.sh
+[5.917s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.dsv
+[5.918s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.sh
+[5.919s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.dsv
+[5.919s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.bash
+[5.920s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.sh
+[5.920s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.zsh
+[5.920s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.dsv
+[5.920s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.dsv
+[5.921s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/packages/cpp06_time
+[5.921s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig.cmake
+[5.921s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig-version.cmake
+[5.922s] -- Up-to-date: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.xml
+[5.930s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp06_time

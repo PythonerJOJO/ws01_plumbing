@@ -1,0 +1,68 @@
+[0.073s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake /home/dai/ros2_study/ws01_plumbing/src/cpp06_time -DCMAKE_INSTALL_PREFIX=/home/dai/ros2_study/ws01_plumbing/install/cpp06_time
+[0.257s] -- The C compiler identification is GNU 11.4.0
+[0.478s] -- The CXX compiler identification is GNU 11.4.0
+[0.494s] -- Detecting C compiler ABI info
+[0.979s] -- Detecting C compiler ABI info - done
+[0.988s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.988s] -- Detecting C compile features
+[0.992s] -- Detecting C compile features - done
+[0.996s] -- Detecting CXX compiler ABI info
+[1.427s] -- Detecting CXX compiler ABI info - done
+[1.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.440s] -- Detecting CXX compile features
+[1.441s] -- Detecting CXX compile features - done
+[1.448s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.744s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.979s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.212s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.256s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.285s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.320s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.714s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.723s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.984s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.046s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.135s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.163s] -- Looking for pthread.h
+[3.337s] -- Looking for pthread.h - found
+[3.339s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.506s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.506s] -- Found Threads: TRUE  
+[3.962s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.151s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.151s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dai/ros2_study/ws01_plumbing/src/cpp06_time/include>
+[4.151s] -- Configured cppcheck exclude dirs and/or files: 
+[4.155s] -- Added test 'lint_cmake' to check CMake code style
+[4.161s] -- Added test 'uncrustify' to check C / C++ code style
+[4.162s] -- Configured uncrustify additional arguments: 
+[4.163s] -- Added test 'xmllint' to check XML markup files
+[4.168s] -- Configuring done
+[4.184s] -- Generating done
+[4.187s] -- Build files have been written to: /home/dai/ros2_study/ws01_plumbing/build/cpp06_time
+[4.201s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake /home/dai/ros2_study/ws01_plumbing/src/cpp06_time -DCMAKE_INSTALL_PREFIX=/home/dai/ros2_study/ws01_plumbing/install/cpp06_time
+[4.207s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp06_time -- -j4 -l4
+[4.303s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[10.337s] [100%] [32m[1mLinking CXX executable demo01_time[0m
+[10.668s] [100%] Built target demo01_time
+[10.704s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/dai/ros2_study/ws01_plumbing/build/cpp06_time -- -j4 -l4
+[10.795s] Invoking command in '/home/dai/ros2_study/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp06_time
+[10.810s] -- Install configuration: ""
+[10.811s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_time
+[10.811s] -- Set runtime path of "/home/dai/ros2_study/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_time" to ""
+[10.811s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/package_run_dependencies/cpp06_time
+[10.816s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/parent_prefix_path/cpp06_time
+[10.816s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.sh
+[10.817s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.dsv
+[10.817s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.sh
+[10.817s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.dsv
+[10.817s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.bash
+[10.817s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.sh
+[10.817s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.zsh
+[10.817s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.dsv
+[10.817s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.dsv
+[10.817s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/packages/cpp06_time
+[10.817s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig.cmake
+[10.817s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig-version.cmake
+[10.817s] -- Installing: /home/dai/ros2_study/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.xml
+[10.831s] Invoked command in '/home/dai/ros2_study/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dai/ros2_study/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/dai/ros2_study/ws01_plumbing/build/cpp06_time
